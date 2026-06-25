@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 # This class is responsible for generating and securely storing the secret code and providing feedback after each guess.
-
 class CodeMaker
   attr_reader :secret_code, :feedback
 
@@ -17,7 +16,7 @@ class CodeMaker
     @secret_code
   end
 
-  def provide_feedback(guess)
+  def provide_feedback(guess) # rubocop:disable Metrics/MethodLength
     white = 0
     black = 0
 

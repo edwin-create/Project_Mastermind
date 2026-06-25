@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-# # This class is responsible for managing the display of the game board.
+# This class is responsible for managing the display of the game board.
 # It handles rendering the current state, updating cells, etc.
-
 class BoardDisplay
   attr_reader :history
 
