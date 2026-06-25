@@ -20,7 +20,7 @@ class CodeBreaker
         @guess = input
         return @guess # Exit the loop and return the valid array of colors
       end
-      puts 'Invalid guess. Please enter exactly 4 valid colors, separated by spaces.' # If the guess is invalid, the loop repeats automatically
+      # If the guess is invalid, the loop repeats automatically
     end
   end
 
