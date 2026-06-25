@@ -1,11 +1,10 @@
 # frozen_string_literal: true
 
-# This class manages the overall flow of the game, handles turns, and coordinates between the codemaker and codebreaker.
-
 require_relative 'codemaker'
 require_relative 'codebreaker'
 require_relative 'boarddisplay'
 
+# This class manages the overall flow of the game, handles turns, and coordinates between the codemaker and codebreaker.
 class Game
   attr_reader :board, :codemaker, :codebreaker
 
