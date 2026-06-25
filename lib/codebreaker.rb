@@ -2,6 +2,7 @@
 
 # This class manages the human interaction for making a guess.
 
+# Allows the player to make a guess in the game.
 class CodeBreaker
   attr_reader :guess
 
