@@ -40,7 +40,7 @@ class Game
     end
   end
 
-  def play
+  def play # rubocop:disable Metrics/MethodLength
     # The Codemaker sets the secret code first
     @codemaker.generate_code
     p CodeMaker::COLORS
